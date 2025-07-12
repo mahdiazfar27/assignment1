@@ -130,3 +130,60 @@ nav {
     color: #252432;
     opacity: 50%;
 }
+.feed-text{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin: 6%;
+}
+.feed-button{
+    padding: 20px;
+    justify-content: space-between ;
+    border-radius: 10px;
+    border: none ;
+    margin: 10px;
+    width: 260px ;
+   
+}
+.feedback{
+    width: 850px;
+    height: 342px;
+    margin: 50px;
+}
+
+.star{
+    display: flex;
+    width: 115px;
+    height: 20px;
+}
+
+.love{
+    font-size: 20px ;
+    font-weight: bold;
+    text-align: left;
+}
+.sub-love{
+    text-align: left;
+    font-weight: 0.8%;
+}
+
+.reviewer{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.name,.date{
+    margin: 0;
+}
+.name{
+text-align: left;
+color: rgba(0, 0, 0, 0.658);
+}
+.date{
+    text-align: left;
+    color: #2524323f;
+}
+
+.profile-pic{
+    border-radius: 50px;
+}
