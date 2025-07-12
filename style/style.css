@@ -226,3 +226,23 @@ section textarea{
     height: 60px;
     margin-bottom: 30px;
 }
+.logo-footer{
+    color: #4E47FF;
+    font-weight: 800;
+    font-size: 70px;
+ }
+ .footer-div{
+    text-align: center;
+    margin: 100px 150px;
+    width: 600px;
+    align-items: center;
+ }
+ .footer-text{
+    text-align: center;
+
+ }
+ .footer-list{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 100px;
+ }
