@@ -187,3 +187,42 @@ color: rgba(0, 0, 0, 0.658);
 .profile-pic{
     border-radius: 50px;
 }
+.touch{
+    display: flex;
+    width: 800px;
+    height: 400px;
+    margin: 50px;
+    border-radius: 10px;
+
+ }
+ .touch-div{
+    padding-right:100px ;
+    padding-bottom: 150px;
+    padding-top: 50px;
+    font-size: 55px;
+    text-align: left;
+    font-weight: bolder;
+ }
+
+ .form{
+    padding-top: 20px;
+    padding-left: 50px;
+    align-items: center;
+    width: 300px;
+ }
+.form-text{
+    margin-bottom: 5px;
+}
+
+section input[type="text"]{
+    height: 40px;
+    border-radius: 5%;
+    border: none;
+    margin-bottom: 0.2%px;
+}
+section textarea{
+    border: none;
+    border-radius: 5px;
+    height: 60px;
+    margin-bottom: 30px;
+}
