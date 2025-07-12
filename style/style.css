@@ -7,3 +7,126 @@
 .dark1{
     color: #252432;
 }
+.dark1{
+    color: #252432;
+}
+
+header {
+    background-image: url(../Assets/Hero-bg.png);
+    border: 50px;
+    justify-content: center;
+    min-height: 45vh;
+    background-size: cover;
+    background-color: #4E47FF;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 40px;
+    margin-bottom: 40px;
+}
+
+.logo {
+    color: #4E47FF;
+    font-weight: 800;
+    font-size: 29px;
+}
+.button {
+    background-color: #4E47FF;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 12px;
+    padding-left: 36px;
+    padding-right: 36px;
+    padding-bottom: 10px;
+    padding-top: 12px;
+    text-align: center;
+    transition: background-color 0.2s ease;
+}
+
+.button:hover {
+    background-color: #6A64FF; 
+    cursor: pointer;
+}
+
+.banner{
+    text-align : center;
+}
+.banner-text{
+    font-size: 50px;
+    font-weight: bold;
+    margin: 3%;
+}
+.action{
+    margin: 100px 10px;
+    /* background-color: #4E47FF; */
+    width: 820px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* text-align: center; */
+}
+.action-section{
+   
+    margin: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.action-text{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: left;
+    margin: 0.6%;
+}
+.action-sub-text{
+    color: #252432;
+    opacity: 50%;
+    text-align: left;
+    
+}
+.action-image{
+    width: 320px ;
+    border-radius: 50px;
+}
+.pro-text{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0.6%;
+}
+.pro-user-button{
+    background-color: #4d47ff42;
+    color: black;
+    font-weight: bold;
+    border: none;
+    margin: 70px;
+    width: 800px;
+    height: 250px;
+    border-radius: 25px;   
+   
+}
+.number-div{
+    display: flex;
+    align-items: center;
+    margin: 0 100px;
+    justify-content: space-between;
+
+}
+
+.number{
+    color: #4E47FF;
+    font-weight: 800;
+    font-size: 40px;
+
+}
+.sub-number{
+    color: #252432;
+    opacity: 50%;
+}
